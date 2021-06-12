@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+  {{>headerlink}}
+<style>
+  @media (min-width: 800px) {
+  .img-fluid {
+    height: 50rem;
+    width: 35rem;
+  }
+}
+</style>
+</head>
+
+<body>
+  {{>navbar}}
+
+  <!-- main header -->
+
+  <div class="container-fluid main_header">
+    <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+        <div class="row">
+
+          <!-- Left Side Div -->
+          <div class="col-md-6 col-12 main_header_right">
+            <figure>
+              <img src="./images/about.png" alt="Bidyasagar" class="img-fluid" title="Bidyasagar" />
+            </figure>
+          </div>
+
+          <!-- Right Side Div -->
+          <div class="col-md-6 col-12 main_header_left">
+            <p>Welcome to weather app</p>
+            <h1>I Am a
+              <span class="text_clr"> Full-stack Developer </span>
+              and
+              <span class="text_clr">
+                back-end developer</span>
+              @
+              <span style="font-weight:bold;"> HermitLabs </span>
+            </h1>
+            <div class="btn_container">
+              <a href="https://www.linkedin.com/in/bidyasagar-mohapatra-b86581203/" target="_blank"><button>About
+                  Me</button>
+              </a>
+              <a href="https://github.com/BidyasagarAnupam" target="_blank"><button class="github"><i
+                    class="fab fa-github"></i></button>
+              </a>
+              <a href="https://www.facebook.com/bidyasagar.anupam" target="_blank"><button class="facebook"><i
+                    class="fab fa-facebook-f"></i></button>
+              </a>
+              <a href="https://www.instagram.com/bidyasagar_anupam/" target="_blank"><button class="insta"><i
+                    class="fab fa-instagram"></i></button>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  {{>footer}}
+
+</body>
+
+</html>
